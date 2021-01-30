@@ -9,7 +9,9 @@ CREATE TABLE items (
 	quantity int NOT NULL,
 	list_price decimal(10,2) NOT NULL,
 	discount decimal(4, 2) NOT NULL,
-	CONSTRAINT PK_items PRIMARY KEY (kljuc_id)
+	CONSTRAINT PK_items PRIMARY KEY (kljuc_id),
+	CONSTRAINT FK_items_order_items FOREIGN KEY (order_id, item_id)
+		REFERENCES sales.order_items (order_id, item_id),
 )
 GO
 
