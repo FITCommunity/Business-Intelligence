@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "BI_2020-07-08_Rjesenje_IS", "BI_2020-07-08\BI_2020-07-08_Rjesenje_IS.dtproj", "{EBEDCD47-1C9E-42CD-890C-3B27CC7D0BF3}"
+EndProject
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "BI_2020-07-08_Rjesenje_TAB", "BI_2020-08-07_\BI_2020-07-08_Rjesenje_TAB.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|x86 = Development|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEDCD47-1C9E-42CD-890C-3B27CC7D0BF3}.Development|x86.ActiveCfg = Development
+		{EBEDCD47-1C9E-42CD-890C-3B27CC7D0BF3}.Development|x86.Build.0 = Development
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.ActiveCfg = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Build.0 = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Deploy.0 = Development|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {995FE16F-A171-4CBF-B664-1A6620B0ED1F}
+	EndGlobalSection
+EndGlobal
